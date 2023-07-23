@@ -21,8 +21,12 @@ Copy the example env file and make the required configuration changes in the .en
 Update Following in .env
 
     DB details
-        cp .env.example .env
-        cp .env.example .env
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=mysql
+        DB_DATABASE=
+        DB_USERNAME=
+        DB_PASSWORD=
     
 Generate a new application key
 
